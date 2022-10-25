@@ -1,0 +1,13 @@
+# Copyright (c) 2022 NotDankEnough (ilotterytea)
+#
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
+from dataclasses import dataclass
+
+@dataclass
+class UserData:
+    id: int
+    aliasId: str
+    platform: int
+    customHost: str
